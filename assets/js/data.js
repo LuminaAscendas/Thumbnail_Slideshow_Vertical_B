@@ -1,4 +1,4 @@
-var mainpage_text = "Strategies for sustainable living"
+var mainpage_text = "Strategies for Sustainable Living"
 var direction_text='<span class="direction">Directions:</span><span class="dir_text"> Click on each thumbnail image to continue through the slideshow.</span>'
 
 var tabIndex=[{
@@ -11,21 +11,21 @@ var tabIndex=[{
 
 var slider=[
 	{
-		slide_Title: 'Strategies for sustainable living',
+		slide_Title: 'Strategies for Sustainable Living',
 		slide_text:'Eliminating poverty and stabilizing the human population are an important step towards a sustainable world. Many studies find that improving women’s health, literacy, and ability to make reproductive decisions lead to better economic, social, and environmental well-being. In this picture, a woman in Egypt is learning about family planning.',
 		slide_img:'slide_1.png',
 	 	img_alt_text:"Eliminating poverty",
 	 	img_alt_text1:"Eliminating poverty and stabilizing the human population"
 	},
 	{			
-		slide_Title: 'Strategies for sustainable living',
+		slide_Title: 'Strategies for Sustainable Living',
 		slide_text:'Protecting and restoring Earth’s resources is an important step towards sustainability. Importantly, this does not mean not using resources. Rather, it means using them in a fashion that allows them to regenerate and be available today and for future generations. In this picture, mangrove trees are being planted in Indonesia to help restore a coastal estuary.',
 		slide_img:'slide_2.png',
 	 	img_alt_text:"Protecting and restoring",
 		img_alt_text1:"Protecting and restoring Earth"
 	},
 	{	
-		slide_Title: 'Strategies for sustainable living',
+		slide_Title: 'Strategies for Sustainable Living',
 		slide_text:'Feeding all of the world’s people is a component of a sustainable world. Food  security is closely tied to political and economic stability, and equal access to resources. This photo depicts Cameroonian farmers harvesting potatoes.',
 		slide_img:'slide_3.png',
 	 	img_alt_text:"Feeding all of the world",
@@ -33,14 +33,14 @@ var slider=[
 		
 	},
 	{			
-		slide_Title: 'Strategies for sustainable living',
+		slide_Title: 'Strategies for Sustainable Living',
 		slide_text:'Mitigating climate change is a key component of a sustainable world. One approach is to make buildings energy neutral, through a combination of efficient building design and on-site electricity generation. This photo, taken in Battery Park City, New York, depicts photovoltaic panels covering the south-facing wall of the Solaire building.',
 		slide_img:'slide_4.png',
 	 	img_alt_text:"Mitigating climate",
 	 	img_alt_text1:"Mitigating climate change"
 	},
 	{			
-		slide_Title: 'Strategies for sustainable living',
+		slide_Title: 'Strategies for Sustainable Living',
 		slide_text:'Designing sustainable cities is an important component of a sustainable world. Cities designed with bicycle, pedestrian, and public transit in mind can improve resident’s health and reduce commute times. Amsterdam (depicted here), like many cities in the Netherlands and elsewhere, is safe and welcoming for bicycle commuters.',
 		slide_img:'slide_5.png',
 	 	img_alt_text:"Designing sustainable",
