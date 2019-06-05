@@ -82,7 +82,7 @@ if (/MSIE 10/i.test(navigator.userAgent) || /MSIE 9/i.test(navigator.userAgent) 
 		
 		setTimeout(function(){
 			
-			$('#responsive_container,#text_container').css('opacity','1');
+			$('#responsive_container,#text_container').css('opacity','1').fadeIn(500);
 			
 			$('#head_ing').fadeIn(500);
 			$('#direction_text').css('visibility','visible').fadeIn(500);
