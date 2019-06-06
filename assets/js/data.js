@@ -48,7 +48,7 @@ var slider=[
 	}
 ];
 
-thumb_label=['To select full size image of this thumbnail and corresponding details, press the enter or spacebar key. To move to next thumbnail, press the tab key.'];
+var thumb_label=['1 of 5', '2 of 5', '3 of 5', '4 of 5', '5 of 5'];
 
 
 

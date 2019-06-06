@@ -141,7 +141,12 @@ if (/MSIE 10/i.test(navigator.userAgent) || /MSIE 9/i.test(navigator.userAgent) 
 			$('.arrow').hide();
 	});	
 	setTimeout(function(){
-		$('.swiper-pagination-bullet').attr('aria-label',thumb_label[0]);
+		//$('.swiper-pagination-bullet').attr('aria-label',thumb_label[0]);
+		$('#bullet_1').attr('aria-label',thumb_label[0]);
+		$('#bullet_2').attr('aria-label',thumb_label[1]);
+		$('#bullet_3').attr('aria-label',thumb_label[2]);
+		$('#bullet_4').attr('aria-label',thumb_label[3]);
+		$('#bullet_5').attr('aria-label',thumb_label[4]);
 	},100)
 	
 	/*----------------------------------------tab_functionality-----------------------------------*/
