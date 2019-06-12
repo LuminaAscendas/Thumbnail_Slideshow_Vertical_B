@@ -2,11 +2,21 @@ var mainpage_text = "Strategies for Sustainable Living"
 var direction_text='<span class="direction">Directions:</span><span class="dir_text"> Click on each thumbnail image to continue through the slideshow.</span>'
 
 var tabIndex=[{
-	set_tab_1: ['#dummy_reader','#direction_text','#bullet_1','#imgCont_1>.slideImg','#head_ing','#textcont_1','#bullet_2','#bullet_3','#bullet_4','#bullet_5','#reset_btn','#extra_tab'],
-	set_tab_2: ['#dummy_reader','#bullet_2','#imgCont_2>.slideImg','#head_ing','#textcont_2','#bullet_1','#bullet_3','#bullet_4','#bullet_5','#reset_btn','#extra_tab'],
-	set_tab_3: ['#dummy_reader','#bullet_3','#imgCont_3>.slideImg','#head_ing','#textcont_3','#bullet_1','#bullet_2','#bullet_4','#bullet_5','#reset_btn','#extra_tab'],
-	set_tab_4: ['#dummy_reader','#bullet_4','#imgCont_4>.slideImg','#head_ing','#textcont_4','#bullet_1','#bullet_2','#bullet_3','#bullet_5','#reset_btn','#extra_tab'],
-	set_tab_5: ['#dummy_reader','#bullet_5','#imgCont_5>.slideImg','#head_ing','#textcont_5','#bullet_1','#bullet_2','#bullet_3','#bullet_4','#reset_btn','#extra_tab'],
+	set_tab_1: ['#dummy_reader','#direction_text','#head_ing','#textcont_1','#bullet_1','#imgCont_1>.slideImg','#bullet_2','#bullet_3','#bullet_4','#bullet_5','#reset_btn','#extra_tab'],
+//	set_tab_2: ['#dummy_reader','#imgCont_2>.slideImg','#bullet_3','#bullet_4','#bullet_5','#reset_btn','#head_ing','#textcont_2','#bullet_1','#bullet_2','#extra_tab'],
+	
+	set_tab_2: ['#dummy_reader','#direction_text','#head_ing','#textcont_2','#bullet_1','#bullet_2','#imgCont_2>.slideImg','#bullet_3','#bullet_4','#bullet_5','#reset_btn','#extra_tab'],
+//	set_tab_3: ['#dummy_reader','#bullet_3','#imgCont_3>.slideImg','#head_ing','#textcont_3','#bullet_1','#bullet_2','#bullet_4','#bullet_5','#reset_btn','#extra_tab'],
+	set_tab_3:
+	['#dummy_reader','#direction_text','#head_ing','#textcont_3','#bullet_1','#bullet_2','#bullet_3','#imgCont_3>.slideImg','#bullet_4','#bullet_5','#reset_btn','#extra_tab'],
+	
+	set_tab_4:
+	['#dummy_reader','#direction_text','#head_ing','#textcont_4','#bullet_1','#bullet_2','#bullet_3','#bullet_4','#imgCont_4>.slideImg','#bullet_5','#reset_btn','#extra_tab'],
+	
+	set_tab_5:
+	['#dummy_reader','#direction_text','#head_ing','#textcont_5','#bullet_1','#bullet_2','#bullet_3','#bullet_4','#bullet_5','#imgCont_5>.slideImg','#reset_btn','#extra_tab']
+//	set_tab_4: ['#dummy_reader','#bullet_4','#imgCont_4>.slideImg','#head_ing','#textcont_4','#bullet_1','#bullet_2','#bullet_3','#bullet_5','#reset_btn','#extra_tab'],
+//	set_tab_5: ['#dummy_reader','#bullet_5','#imgCont_5>.slideImg','#head_ing','#textcont_5','#bullet_1','#bullet_2','#bullet_3','#bullet_4','#reset_btn','#extra_tab'],
 }]
 
 var slider=[

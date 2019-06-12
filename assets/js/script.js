@@ -231,8 +231,17 @@ if (/MSIE 10/i.test(navigator.userAgent) || /MSIE 9/i.test(navigator.userAgent) 
 		$('#bullet_'+(i+1)+' img').attr('alt',"Slider"+(i+1));	
 		$('#arrow_'+(i+1)+' img').attr('alt',"ArrowImg"+(i+1));	
 	}	
+	 
 	
-	
+	$('.swiper-pagination-bullet').off('click').on('click',function(event){
+//		alert(event.target.id.split('_')[1])
+		console.log()
+//		$('.slideImg').focus()
+		setTimeout(function(){
+			$('#imgCont_'+event.target.id.split('_')[1]+' img').focus()
+			console.log($('#imgCont_'+event.target.id.split('_')[1]+ ' img'))
+		},500);
+	})
 	$('#reset_btn').off('click').on('click',function(){
 		
 		goBeginPage();
